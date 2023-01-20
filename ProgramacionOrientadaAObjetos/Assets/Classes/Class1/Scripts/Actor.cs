@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Basic Attributes")]
+    [SerializeField] private int health;
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpForce;
+
+    private bool isGrounded;
+    
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
+
+    private void Move()
+    {
+
+    }
+
+    private void Jump()
+    {
+
+    }
+
+    
 }
