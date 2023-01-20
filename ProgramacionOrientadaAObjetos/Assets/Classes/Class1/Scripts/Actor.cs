@@ -5,10 +5,10 @@ using UnityEngine;
 public class Actor : MonoBehaviour
 {
     [Header("Basic Attributes")]
-    [SerializeField] private int health;
-    [SerializeField] private float speed;
+    public int health;
+    [SerializeField] protected float speed;
     [SerializeField] private float jumpForce;
-
+    protected float damage;
     private bool isGrounded;
     
 
@@ -22,14 +22,19 @@ public class Actor : MonoBehaviour
 
     }
 
-    private void Move()
+    public virtual void Move()
     {
-
+        speed = 6;
     }
 
     private void Jump()
     {
 
+    }
+
+    public void ReduceHealth(int damage)
+    {
+        health -= damage;
     }
 
     

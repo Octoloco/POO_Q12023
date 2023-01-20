@@ -12,6 +12,11 @@ public class Player : Actor
         IsItemAvailable(typeof(Bomb));
     }
 
+    private void Update()
+    {
+        
+    }
+
     private void SetBomb()
     {
         
