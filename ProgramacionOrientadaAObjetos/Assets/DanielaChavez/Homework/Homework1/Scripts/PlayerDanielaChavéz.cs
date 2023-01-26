@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class PlayerDanielaChavéz : ActorDanielaChavéz
 {
-    public int vida;
-    public int ataque;
-    public int defensa;
-    public int velocidad;
-    public int curación;
+    protected int vida;
+    protected int ataque;
+    protected int defensa;
+    protected int velocidad;
+    protected int maná;
+
+    public void Correr()
+    { }
+    public void Atacar()
+    { }
+    public void Curación()
+    { }
+    public void Bloquear() 
+    { }
+    public void AtaqueMágico () 
+    { }
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,4 +33,6 @@ public class PlayerDanielaChavéz : ActorDanielaChavéz
     {
         
     }
+
+
 }
