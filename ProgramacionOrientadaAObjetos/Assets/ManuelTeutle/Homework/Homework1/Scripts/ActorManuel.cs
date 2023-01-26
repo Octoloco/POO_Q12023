@@ -21,4 +21,31 @@ public class ActorManuel : MonoBehaviour
     {
         
     }
+
+    public void Move()
+    {
+
+    }
+     private void Jump()
+    {
+
+    }
+
+    private void Hit()
+    {
+
+    }
+
+    public void isInmune()
+    {
+
+    }
+
+    public void Dash()
+    {
+
+    }
+
+
+
 }
