@@ -21,4 +21,30 @@ public class PlayerManuel : ActorManuel
     {
         
     }
+
+    private void AddHealth()
+    {
+
+    }
+
+    public void GetDamage()
+    {
+
+    }
+
+    private void UseKeys()
+    {
+
+    }
+
+    private void Parry()
+    {
+
+    }
+
+    public void PowerUp()
+    {
+
+    }
 }
+
