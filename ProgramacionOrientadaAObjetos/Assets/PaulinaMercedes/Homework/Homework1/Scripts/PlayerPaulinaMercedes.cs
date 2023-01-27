@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerPaulinaMercedes : ActorPaulinaMercedes
 
 {
-    private string mezclar los ingredientes;
-    private string seguir los pasos de la receta;
-    private string lavar los ingredientes;
-    private string meter al horno la comida;
-    private string cocinar en la estufa;
+    private string mezclarlosingredientes;
+    private string seguirlospasosdelareceta;
+    private string lavarlosingredientes;
+    private string meteralhornolacomida;
+    private string cocinarenlaestufa;
 
     void cocinar()
     {
