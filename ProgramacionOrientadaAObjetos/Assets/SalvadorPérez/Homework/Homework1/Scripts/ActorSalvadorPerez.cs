@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class ActorSalvadorPerez : MonoBehaviour
@@ -10,14 +11,34 @@ public class ActorSalvadorPerez : MonoBehaviour
     int armor = 15;
     float attkSpeed = 0.8f;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void CriticAttk()
+    {
+        
+    }
+
+    void Jump()
+    {
+
+    }
+
+    void HealOnAttk()
+    {
+
+    }
+
+    void RechargeSpeed()
+    {
+        
+    }
+
+    void RegenArmor()
+    {
+
     }
 }
