@@ -11,4 +11,31 @@ public class ActorAimee : MonoBehaviour
      [SerializeField] public float jumpSpeed = 8.0f;
      [SerializeField] public float gravity = 20.0f;
      float rotationSpeed = 50f;
+
+
+    private void Star()
+    {
+
+    }
+
+    private void Update ()
+    {
+
+    }
+
+    private void fixedUpdate()
+    {
+
+    }
+
+    private bool IsGrounded()
+    {
+
+    }
+
+    private void flip()
+    {
+
+    }
 }
+
