@@ -7,7 +7,7 @@ public class ActorPaulinaBorja : MonoBehaviour
     public int life;
     public int coins;
     public bool damage;
-    public int speed;
+    public float speed;
     public bool isGrounded;
 
     // Start is called before the first frame update
