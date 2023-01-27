@@ -5,15 +5,31 @@ using UnityEngine;
 public class PlayerPaulinaMercedes : ActorPaulinaMercedes
 
 {
-    // Start is called before the first frame update
-    void Start()
+    private string mezclar los ingredientes;
+    private string seguir los pasos de la receta;
+    private string lavar los ingredientes;
+    private string meter al horno la comida;
+    private string cocinar en la estufa;
+
+    void cocinar()
     {
-        
+
+    }
+    void mezclarlosingredientes()
+    {
+
+    }
+    void hornearlacomida()
+    {
+
+    }
+    void lavarelingrediente()
+    {
+
+    }
+    void cocinarlapasta()
+    {
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
