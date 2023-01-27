@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPaulinaMercedes : ActorPaulinaMercedes
+public class PlayerPaulinaMercedes
 
 {
     private string mezclarProductos;
@@ -20,14 +20,6 @@ public class PlayerPaulinaMercedes : ActorPaulinaMercedes
 
     }
     void Hornear()
-    {
-
-    }
-    void lavarelingrediente()
-    {
-
-    }
-    void cocinarlapasta()
     {
 
     }
