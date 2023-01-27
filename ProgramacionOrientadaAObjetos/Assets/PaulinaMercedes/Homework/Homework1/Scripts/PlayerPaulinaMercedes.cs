@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPaulinaMercedes : MonoBehaviour
+public class PlayerPaulinaMercedes : ActorPaulinaMercedes
+
 {
     // Start is called before the first frame update
     void Start()
