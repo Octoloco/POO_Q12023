@@ -2,23 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDanielTreto : ActorDanielTreto
+public class PlayerAlanBonilla : ActorAlanBonilla
 {
-    private float velocidad;
-    private int fuerza;
-    
-    protected float resistensia;
-    private int punchline;
+    int bullets = 60;
+    int grenades = 3;
+    int bandages = 5;
+    int armor = 50;
+    int life = 85;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        velocidad = 1;
-        fuerza = 3;
-        punchline = true; 
-
-
-
+        
     }
 
     // Update is called once per frame

@@ -2,23 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDanielTreto : ActorDanielTreto
+public class ActorAlanBonilla : MonoBehaviour
 {
-    private float velocidad;
-    private int fuerza;
-    
-    protected float resistensia;
-    private int punchline;
+    float power = 80;
+    int impulse = 70;
+    int damage = 15;
+    int skills = 60;
+    float stealth = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        velocidad = 1;
-        fuerza = 3;
-        punchline = true; 
-
-
-
+        
     }
 
     // Update is called once per frame
