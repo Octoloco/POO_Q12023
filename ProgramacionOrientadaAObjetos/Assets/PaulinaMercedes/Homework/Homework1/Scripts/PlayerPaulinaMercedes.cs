@@ -1,35 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class PlayerPaulinaMercedes : ActorPaulinaMercedes
+//public class PlayerPaulinaMercedes 
 
-{
-    private string mezclarlosingredientes;
-    private string seguirlospasosdelareceta;
-    private string lavarlosingredientes;
-    private string meteralhornolacomida;
-    private string cocinarenlaestufa;
+//{
+//    private string mezclarlosingredientes;
+//    private string seguirlospasosdelareceta;
+//    private string lavarlosingredientes;
+//    private string meteralhornolacomida;
+//    private string cocinarenlaestufa;
 
-    void cocinar()
-    {
+//    void cocinar()
+//    {
 
-    }
-    void mezclarlosingredientes()
-    {
+//    }
+//    void mezclarlosingredientes()
+//    {
 
-    }
-    void hornearlacomida()
-    {
+//    }
+//    void hornearlacomida()
+//    {
 
-    }
-    void lavarelingrediente()
-    {
+//    }
+//    void lavarelingrediente()
+//    {
 
-    }
-    void cocinarlapasta()
-    {
+//    }
+//    void cocinarlapasta()
+//    {
 
-    }
+//    }
 
-}
+//}
