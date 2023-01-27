@@ -5,21 +5,21 @@ using UnityEngine;
 public class PlayerPaulinaMercedes : ActorPaulinaMercedes
 
 {
-    private string mezclarlosingredientes;
+    private string mezclarProductos;
     private string seguirlospasosdelareceta;
     private string lavarlosingredientes;
     private string meteralhornolacomida;
     private string cocinarenlaestufa;
 
-    void cocinar()
+    void Cocinar()
     {
 
     }
-    void mezclarlosingredientes()
+    void MezclarIngredientes()
     {
 
     }
-    void hornearlacomida()
+    void Hornear()
     {
 
     }

@@ -26,10 +26,7 @@ public class PlayerAimee : MonoBehaviour
     {
 
     }
-    public void MaxVidasPlayer()
-    {
 
-    }
     public void FixedUpdate()
     {
 

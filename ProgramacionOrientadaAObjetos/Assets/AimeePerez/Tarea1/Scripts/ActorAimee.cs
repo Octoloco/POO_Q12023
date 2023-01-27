@@ -28,12 +28,12 @@ public class ActorAimee : MonoBehaviour
 
     }
 
-    private bool IsGrounded()
+    private void flip()
     {
 
     }
 
-    private void flip()
+     private void Camara()
     {
 
     }
