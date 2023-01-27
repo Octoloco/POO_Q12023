@@ -29,7 +29,7 @@ public class ActorDanielTreto : MonoBehaviour
     /*----------------------------------------------------------------------------*/
     public void Move()
     {
-        transform.position += Vector3.right * velocidad * Time.deltaTime;
+        
     }
 
     /*----------------------------------------------------------------------------*/
@@ -65,4 +65,4 @@ public class ActorDanielTreto : MonoBehaviour
 }
 
 
-}
+
