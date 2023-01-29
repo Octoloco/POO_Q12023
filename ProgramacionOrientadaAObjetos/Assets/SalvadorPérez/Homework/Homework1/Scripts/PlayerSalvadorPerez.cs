@@ -10,14 +10,37 @@ public class PlayerSalvadorPerez : ActorSalvadorPerez
     int stamina = 15;
     int lives = 5;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void ManaRegen()
+    {
+
+    }
+
+    void ParryAttk()
+    {
+
+    }
+
+    void LowerStamina()
+    {
+
+    }
+
+    void SpecialMove()
+    {
+
+    }
+
+    void AddLive()
+    {
+        if (coins == 100)
+        {
+            lives++;
+        }
     }
 }
