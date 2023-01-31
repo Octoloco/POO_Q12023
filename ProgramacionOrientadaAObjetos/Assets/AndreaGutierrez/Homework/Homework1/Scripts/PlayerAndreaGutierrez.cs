@@ -4,29 +4,37 @@ using UnityEngine;
 
 public class PlayerAndreaGutierrez : ActorAndreaGutierrez
 {
-<<<<<<< Updated upstream
-    private float golpe;
-    private int muerte;
-    private int salto;
-    private int muertes;
-    protected float Ataque;
-
-=======
-    private float pastel;
-    private int huevos;
-    private int harina;
-    protected float leche;
-    private int hornear;
->>>>>>> Stashed changes
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int balas = 0;
+    int armas = 0;
+    int item = 0;
+    int moneda = 0;
+    int vidas = 0;
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+    void atack()
+    {
+
+    }
+    void Awake()
+    {
+    }
+    void Start()
+    {
+    }
+    void OnDestroy()
+    {
+    }
+    void dinero()
+    {
+       if (moneda== 100)
+
+        {
+            moneda++;
+        }
+    }
+
 }
