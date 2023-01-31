@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActorEstefannia : MonoBehaviour
+public class ActorEstefanniaZepeda : MonoBehaviour
 {
+    //Variables de Actor
     public int life;
-    public int move;
-    public int damage;
+    public int speed;
     public int jump;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +19,26 @@ public class ActorEstefannia : MonoBehaviour
     void Update()
     {
         
+    }
+
+    // Funciones
+    private void Escudo()
+    {
+
+    }
+
+    public void Ataque()
+    {
+
+    }
+
+    private void NuevaVida()
+    {
+
+    }
+
+    public void Volar()
+    {
+
     }
 }
