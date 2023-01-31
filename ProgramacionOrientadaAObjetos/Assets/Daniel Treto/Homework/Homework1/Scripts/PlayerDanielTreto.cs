@@ -6,8 +6,8 @@ public class PlayerDanielTreto : ActorDanielTreto
 {
     private float velocidad;
     private int fuerza;
-    private int resistencia;
-    protected float resistencia;
+    
+    protected float resistensia;
     private int punchline;
 
     // Start is called before the first frame update

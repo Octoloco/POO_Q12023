@@ -9,7 +9,7 @@ public class ActorDanielTreto : MonoBehaviour
     public int items;
     public bool daño;
     public int fuerza;
-    public bool velocidad;
+    public int velocidad;
 
 
     // Start is called before the first frame update
@@ -29,14 +29,14 @@ public class ActorDanielTreto : MonoBehaviour
     /*----------------------------------------------------------------------------*/
     public void Move()
     {
-        transform.position += Vector3.right * velocidad * Time.deltaTime;
+        
     }
 
     /*----------------------------------------------------------------------------*/
 
     public void characterGrounded()
     {
-        if (isGrounded) { Move(); }
+       
     }
 
     /*----------------------------------------------------------------------------*/
@@ -65,4 +65,4 @@ public class ActorDanielTreto : MonoBehaviour
 }
 
 
-}
+
