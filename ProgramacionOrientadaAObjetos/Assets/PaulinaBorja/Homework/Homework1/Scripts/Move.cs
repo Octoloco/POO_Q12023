@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeMove : MonoBehaviour
+public class Move : MonoBehaviour
 {
     [SerializeField] private float speed = 5;
 
@@ -21,18 +21,21 @@ public class CubeMove : MonoBehaviour
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.A))
         {
-            //Instantiate(prefab, transform.position, Quaternion.identity);
-        }
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
 
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("floor"))
-        {
-            Destroy(collision.gameObject);
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.Translate(Vector3.up * Time.deltaTime * speed);
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(Vector3.down * Time.deltaTime * speed);
+            }
+
         }
     }
 }
