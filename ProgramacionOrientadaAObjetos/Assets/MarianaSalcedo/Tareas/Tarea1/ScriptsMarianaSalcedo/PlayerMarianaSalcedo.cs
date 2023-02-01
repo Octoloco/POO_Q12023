@@ -4,12 +4,37 @@ using UnityEngine;
 
 public class PlayerMarianaSalcedo : ActorMarianaSalcedo
 {
-    private float force;
-    private int damage;
-    private int resistance;
-    protected float wisdom;
-    private int skill;
+    //Exclusivo de 1 jugador.
+    private int distanciaSalto;
+    private int inventario;
+    public float coleccionables;
+    protected int energía;
+    [SerializeField] private int velocidad;
 
+    void Inventario()
+    {
+
+    }
+
+    void Empujar()
+    {
+
+    }
+
+    void Lanzar()
+    {
+
+    }
+
+    void Correr()
+    {
+
+    }
+
+    void Saltar()
+    {
+
+    }
 
     // Start is called before the first frame update
     void Start()
