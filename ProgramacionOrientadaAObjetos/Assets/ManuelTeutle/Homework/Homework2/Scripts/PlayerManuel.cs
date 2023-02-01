@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerManuel : ActorManuel
 {
-    [SerializeField] private int health;
+    [SerializeField] private int health = 5;
     [SerializeField] private int isInmune;
     protected float speed;
     public int keys;
@@ -20,6 +20,7 @@ public class PlayerManuel : ActorManuel
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        shootPoint = GetComponent<Transform>();
     }
 
     // Start is called before the first frame update
@@ -31,7 +32,7 @@ public class PlayerManuel : ActorManuel
     // Update is called once per frame
     void Update()
     {
-        Move();
+        MovePlayer();
         Shoot();
     }
 
@@ -42,7 +43,11 @@ public class PlayerManuel : ActorManuel
 
     public void GetDamage()
     {
-
+        health--;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void UseKeys()
@@ -91,6 +96,14 @@ public class PlayerManuel : ActorManuel
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(Bullet, shootPoint.position, Quaternion.identity);
+        }
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstaculo"))
+        {
+            GetDamage();
         }
     }
 }

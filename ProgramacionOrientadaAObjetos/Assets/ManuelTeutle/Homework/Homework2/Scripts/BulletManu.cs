@@ -45,6 +45,7 @@ public class BulletManu : MonoBehaviour
         if (other.gameObject.CompareTag("enemy"))
         {
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
 }

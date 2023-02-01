@@ -6,7 +6,7 @@ public class ActorManuel : MonoBehaviour
 {
     [SerializeField] private float inmuneCount;
     [SerializeField] private float jumpForce;
-    private int MaxHealth = 7;
+    private int maxHealth = 7;
     public int coins;
     public bool isGrounded;
 
