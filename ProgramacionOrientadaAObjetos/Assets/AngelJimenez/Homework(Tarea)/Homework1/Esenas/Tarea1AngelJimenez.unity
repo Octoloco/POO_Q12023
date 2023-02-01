@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 106507904}
   m_Layer: 0
   m_Name: Enemigo3
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 179055198}
   m_Layer: 0
   m_Name: Enemigo1
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,10 +2630,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6853dbd73a3b59949aa3abdb37831804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 6271775022624642325, guid: 8428ddc70b2dee2479bc26fdbe3c9a9a, type: 3}
+  bala: {fileID: 903251808727524596, guid: 8428ddc70b2dee2479bc26fdbe3c9a9a, type: 3}
   spawnPoint: {fileID: 1665579229}
-  fuerzaBala: 500
-  velocidadBala: 1
+  fuerzaBala: 100
+  velocidadBala: 10
 --- !u!1 &1101312952
 GameObject:
   m_ObjectHideFlags: 0
