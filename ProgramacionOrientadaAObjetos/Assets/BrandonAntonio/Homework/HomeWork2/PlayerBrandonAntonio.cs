@@ -5,30 +5,31 @@ using UnityEngine;
 public class PlayerBrandonAntonio : ActorBrandonAntonio
 
 {
-    private int Bullets = 7;
+ 
+    private int Vida;
 
-    public int Coins = 5;
+    private int Velocidad;
 
-    private int Energy = 10;
-
-    private int Fruits = 0;
-
-    private int Gems = 0;
-
-
-
+    private int JumpForce;
 
     // Start is called before the first frame update
     void Start()
     {
 
     }
-
     // Update is called once per frame
     void Update()
+
     {
+        if (Input.GetKey(KeyCode.W)) transform.Translate(Vector3(0, 1, 0) * Time.deltaTime * speed);
+        if (Input.GetKey(KeyCode.S)) transform.Translate(Vector3(0, -1, 0) * Time.deltaTime * speed);
+        if (Input.GetKey(KeyCode.D)) transform.Translate(Vector3(1, 0, 0) * Time.deltaTime * speed);
+        if (Input.GetKey(KeyCode.A)) transform.Translate(Vector3(-1, 0, 0) * Time.deltaTime * speed);
+
+
 
     }
+
 
     private bool IsBulletAvailable()
     {
@@ -90,6 +91,11 @@ public class PlayerBrandonAntonio : ActorBrandonAntonio
             Gems++;
         }
     }
+
+
+
+
+
 
 }
 
