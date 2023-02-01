@@ -2,19 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveSergioAboites2 : MonoBehaviour
+public class Player1SergioAboites : MonoBehaviour
 {
     public int speed = 100;
+    public int health = 100;
+    public int jumpForce = 100;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+    }
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.CompareTag("Enemy"))
+        {
+            health = health--;
+        }
+    }
+    void OncollisionEnter(Collider col)
+    {
+
     }
 
-    // Update is called once per frame
-    void Update()
+            // Update is called once per frame
+            void Update()
     {
         {
             if (Input.GetKey(KeyCode.W))

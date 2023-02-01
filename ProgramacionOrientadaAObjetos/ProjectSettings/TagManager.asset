@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - floor
+<<<<<<< Updated upstream
+=======
+  - obstacle
+>>>>>>> Stashed changes
+  - enemy
   layers:
   - Default
   - TransparentFX
