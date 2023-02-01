@@ -2,23 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletQuijano : MonoBehaviour
 {
     public Transform bulletSpawn;
     public GameObject bullet;
 
     public float shootforce = 2000;
 
-    public float contador = 1f;
+   /* public float contador = 1f;*/
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Enemy")
-        {
-            Destroy(other.gameObject);
-        }
-
-    }
+    
 
     // Start is called before the first frame update
     void Start()
@@ -35,17 +28,27 @@ public class Bullet : MonoBehaviour
             newBullet = Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation);
 
             newBullet.GetComponent<Rigidbody>().AddForce(bulletSpawn.forward * shootforce);
-         
+            Destroy(newBullet, 0.5f);
         }
 
 
-        contador-=Time.deltaTime;
+        /*contador-=Time.deltaTime;
 
         if(contador == 0)
         {
             Destroy(gameObject);
         }
-
+        */
 
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+        }
+
+    }
+
 }
