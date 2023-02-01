@@ -8,9 +8,9 @@ public class Disparos : MonoBehaviour
     public Transform spawnPoint;
 
     public int fuerzaBala = 100;
-    public int velocidadDeBala = 12;
+    public int velocidadDeBala = 10;
 
-    private float tiempodeDisparo = 0.5;
+    private float tiempodeDisparo = 1;
 
     // Update is called once per frame
     void Update()
