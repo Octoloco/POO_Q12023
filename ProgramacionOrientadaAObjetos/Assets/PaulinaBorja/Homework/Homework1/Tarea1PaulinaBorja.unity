@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 62943189}
   - component: {fileID: 62943188}
   - component: {fileID: 62943187}
+  - component: {fileID: 62943191}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -332,6 +333,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &62943191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62943186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &105715335
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,6 +358,7 @@ GameObject:
   - component: {fileID: 105715338}
   - component: {fileID: 105715337}
   - component: {fileID: 105715336}
+  - component: {fileID: 105715340}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -429,6 +444,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &105715340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105715335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &128605064
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +554,7 @@ GameObject:
   - component: {fileID: 153491897}
   - component: {fileID: 153491896}
   - component: {fileID: 153491895}
+  - component: {fileID: 153491900}
   m_Layer: 0
   m_Name: Agua
   m_TagString: Untagged
@@ -624,6 +653,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &153491900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153491894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &172066002
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +678,7 @@ GameObject:
   - component: {fileID: 172066005}
   - component: {fileID: 172066004}
   - component: {fileID: 172066003}
+  - component: {fileID: 172066007}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -722,6 +765,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &172066007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172066002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!1 &208749672
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +790,7 @@ GameObject:
   - component: {fileID: 208749675}
   - component: {fileID: 208749674}
   - component: {fileID: 208749673}
+  - component: {fileID: 208749677}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -819,6 +876,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &208749677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208749672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &254645204
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +902,7 @@ GameObject:
   - component: {fileID: 254645207}
   - component: {fileID: 254645206}
   - component: {fileID: 254645205}
+  - component: {fileID: 254645210}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -930,6 +1001,19 @@ Transform:
   m_Father: {fileID: 914347220}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &254645210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254645204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0.00000047683716}
 --- !u!1 &293769564
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1026,7 @@ GameObject:
   - component: {fileID: 293769567}
   - component: {fileID: 293769566}
   - component: {fileID: 293769565}
+  - component: {fileID: 293769569}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -1027,6 +1112,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &293769569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293769564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &314068847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1138,7 @@ GameObject:
   - component: {fileID: 314068850}
   - component: {fileID: 314068849}
   - component: {fileID: 314068848}
+  - component: {fileID: 314068853}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -1138,6 +1237,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &314068853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314068847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &391566592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1262,7 @@ GameObject:
   - component: {fileID: 391566595}
   - component: {fileID: 391566594}
   - component: {fileID: 391566593}
+  - component: {fileID: 391566597}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -1235,6 +1348,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &391566597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391566592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &462503042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1373,7 @@ GameObject:
   - component: {fileID: 462503045}
   - component: {fileID: 462503044}
   - component: {fileID: 462503043}
+  - component: {fileID: 462503047}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -1332,6 +1459,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &462503047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462503042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &513338565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1484,7 @@ GameObject:
   - component: {fileID: 513338568}
   - component: {fileID: 513338567}
   - component: {fileID: 513338566}
+  - component: {fileID: 513338570}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -1429,6 +1570,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &513338570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513338565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &523656195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1596,7 @@ GameObject:
   - component: {fileID: 523656198}
   - component: {fileID: 523656197}
   - component: {fileID: 523656196}
+  - component: {fileID: 523656201}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -1540,6 +1695,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &523656201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523656195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &566535984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1721,7 @@ GameObject:
   - component: {fileID: 566535987}
   - component: {fileID: 566535986}
   - component: {fileID: 566535985}
+  - component: {fileID: 566535990}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -1651,6 +1820,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &566535990
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566535984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &572777575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1845,7 @@ GameObject:
   - component: {fileID: 572777578}
   - component: {fileID: 572777577}
   - component: {fileID: 572777576}
+  - component: {fileID: 572777580}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -1749,6 +1932,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &572777580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572777575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!1001 &612525348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,6 +2042,7 @@ GameObject:
   - component: {fileID: 644211798}
   - component: {fileID: 644211797}
   - component: {fileID: 644211796}
+  - component: {fileID: 644211800}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -1931,6 +2128,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &644211800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644211795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &655502747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,6 +2153,7 @@ GameObject:
   - component: {fileID: 655502750}
   - component: {fileID: 655502749}
   - component: {fileID: 655502748}
+  - component: {fileID: 655502752}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -2028,6 +2239,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &655502752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655502747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &725433114
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,6 +2377,7 @@ GameObject:
   - component: {fileID: 734220508}
   - component: {fileID: 734220507}
   - component: {fileID: 734220506}
+  - component: {fileID: 734220511}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -2251,6 +2476,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &734220511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734220505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &788894083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,6 +2502,7 @@ GameObject:
   - component: {fileID: 788894086}
   - component: {fileID: 788894085}
   - component: {fileID: 788894084}
+  - component: {fileID: 788894089}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -2362,6 +2601,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &788894089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788894083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &818106282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2626,7 @@ GameObject:
   - component: {fileID: 818106285}
   - component: {fileID: 818106284}
   - component: {fileID: 818106283}
+  - component: {fileID: 818106287}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -2459,6 +2712,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &818106287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818106282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &908632398
 GameObject:
   m_ObjectHideFlags: 0
@@ -2472,6 +2738,7 @@ GameObject:
   - component: {fileID: 908632401}
   - component: {fileID: 908632400}
   - component: {fileID: 908632399}
+  - component: {fileID: 908632404}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -2570,6 +2837,19 @@ Transform:
   m_Father: {fileID: 12215541}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &908632404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908632398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!1 &914347215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,6 +3070,7 @@ GameObject:
   - component: {fileID: 951479527}
   - component: {fileID: 951479526}
   - component: {fileID: 951479525}
+  - component: {fileID: 951479530}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -2888,6 +3169,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &951479530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951479524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &972774941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2977,6 +3271,7 @@ GameObject:
   - component: {fileID: 991544349}
   - component: {fileID: 991544348}
   - component: {fileID: 991544347}
+  - component: {fileID: 991544351}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -3062,6 +3357,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &991544351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991544346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1020244330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,6 +3383,7 @@ GameObject:
   - component: {fileID: 1020244333}
   - component: {fileID: 1020244332}
   - component: {fileID: 1020244331}
+  - component: {fileID: 1020244336}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -3173,6 +3482,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1020244336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020244330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1057051703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,6 +3508,7 @@ GameObject:
   - component: {fileID: 1057051706}
   - component: {fileID: 1057051705}
   - component: {fileID: 1057051704}
+  - component: {fileID: 1057051709}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -3284,6 +3607,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1057051709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057051703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1089999234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3297,6 +3633,7 @@ GameObject:
   - component: {fileID: 1089999237}
   - component: {fileID: 1089999236}
   - component: {fileID: 1089999235}
+  - component: {fileID: 1089999240}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -3395,6 +3732,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1089999240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089999234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1091863696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +3758,7 @@ GameObject:
   - component: {fileID: 1091863699}
   - component: {fileID: 1091863698}
   - component: {fileID: 1091863697}
+  - component: {fileID: 1091863702}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -3506,6 +3857,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1091863702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091863696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1095397975
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,6 +3882,7 @@ GameObject:
   - component: {fileID: 1095397978}
   - component: {fileID: 1095397977}
   - component: {fileID: 1095397976}
+  - component: {fileID: 1095397980}
   m_Layer: 0
   m_Name: Meta
   m_TagString: Untagged
@@ -3603,6 +3968,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1095397980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095397975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1178323790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3615,6 +3993,7 @@ GameObject:
   - component: {fileID: 1178323793}
   - component: {fileID: 1178323792}
   - component: {fileID: 1178323791}
+  - component: {fileID: 1178323795}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -3701,6 +4080,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &1178323795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178323790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!1 &1255212823
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +4106,7 @@ GameObject:
   - component: {fileID: 1255212826}
   - component: {fileID: 1255212825}
   - component: {fileID: 1255212824}
+  - component: {fileID: 1255212829}
   m_Layer: 0
   m_Name: Agua
   m_TagString: Untagged
@@ -3812,6 +4205,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1255212829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255212823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1332048693
 GameObject:
   m_ObjectHideFlags: 0
@@ -3825,6 +4231,7 @@ GameObject:
   - component: {fileID: 1332048696}
   - component: {fileID: 1332048695}
   - component: {fileID: 1332048694}
+  - component: {fileID: 1332048699}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -3923,6 +4330,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1332048699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332048693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1345887691
 GameObject:
   m_ObjectHideFlags: 0
@@ -3936,6 +4356,7 @@ GameObject:
   - component: {fileID: 1345887694}
   - component: {fileID: 1345887693}
   - component: {fileID: 1345887692}
+  - component: {fileID: 1345887697}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -4034,6 +4455,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1345887697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345887691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1368749499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,6 +4481,7 @@ GameObject:
   - component: {fileID: 1368749502}
   - component: {fileID: 1368749501}
   - component: {fileID: 1368749500}
+  - component: {fileID: 1368749505}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -4145,6 +4580,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1368749505
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368749499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1387399497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,6 +4606,7 @@ GameObject:
   - component: {fileID: 1387399500}
   - component: {fileID: 1387399499}
   - component: {fileID: 1387399498}
+  - component: {fileID: 1387399503}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -4256,6 +4705,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1387399503
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387399497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1395252625
 GameObject:
   m_ObjectHideFlags: 0
@@ -4268,6 +4730,7 @@ GameObject:
   - component: {fileID: 1395252628}
   - component: {fileID: 1395252627}
   - component: {fileID: 1395252626}
+  - component: {fileID: 1395252630}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -4353,6 +4816,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1395252630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395252625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1448316529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,6 +4841,7 @@ GameObject:
   - component: {fileID: 1448316532}
   - component: {fileID: 1448316531}
   - component: {fileID: 1448316530}
+  - component: {fileID: 1448316534}
   m_Layer: 0
   m_Name: Meta
   m_TagString: Untagged
@@ -4450,6 +4927,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1448316534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448316529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1467223119
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,6 +4953,7 @@ GameObject:
   - component: {fileID: 1467223122}
   - component: {fileID: 1467223121}
   - component: {fileID: 1467223120}
+  - component: {fileID: 1467223125}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -4561,6 +5052,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1467223125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467223119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1508079526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4659,6 +5163,7 @@ GameObject:
   - component: {fileID: 1524509782}
   - component: {fileID: 1524509781}
   - component: {fileID: 1524509780}
+  - component: {fileID: 1524509785}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -4757,6 +5262,19 @@ Transform:
   m_Father: {fileID: 914347220}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1524509785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524509779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1532274503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4769,6 +5287,7 @@ GameObject:
   - component: {fileID: 1532274506}
   - component: {fileID: 1532274505}
   - component: {fileID: 1532274504}
+  - component: {fileID: 1532274508}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -4855,6 +5374,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &1532274508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532274503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!1 &1610822077
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,6 +5399,7 @@ GameObject:
   - component: {fileID: 1610822080}
   - component: {fileID: 1610822079}
   - component: {fileID: 1610822078}
+  - component: {fileID: 1610822082}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -4953,6 +5486,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &1610822082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610822077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
 --- !u!1 &1665583200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,6 +5511,7 @@ GameObject:
   - component: {fileID: 1665583203}
   - component: {fileID: 1665583202}
   - component: {fileID: 1665583201}
+  - component: {fileID: 1665583205}
   m_Layer: 0
   m_Name: Meta
   m_TagString: Untagged
@@ -5050,6 +5597,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1665583205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665583200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1867289114
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,6 +5623,7 @@ GameObject:
   - component: {fileID: 1867289117}
   - component: {fileID: 1867289116}
   - component: {fileID: 1867289115}
+  - component: {fileID: 1867289120}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -5161,6 +5722,19 @@ Transform:
   m_Father: {fileID: 725433119}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1867289120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867289114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0.00000047683716, z: -0.0000009536743}
 --- !u!1 &1908864025
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,6 +5747,7 @@ GameObject:
   - component: {fileID: 1908864028}
   - component: {fileID: 1908864027}
   - component: {fileID: 1908864026}
+  - component: {fileID: 1908864030}
   m_Layer: 0
   m_Name: Tronco
   m_TagString: Untagged
@@ -5258,6 +5833,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1908864030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908864025}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1919185939
 GameObject:
   m_ObjectHideFlags: 0
@@ -5270,6 +5858,7 @@ GameObject:
   - component: {fileID: 1919185942}
   - component: {fileID: 1919185941}
   - component: {fileID: 1919185940}
+  - component: {fileID: 1919185944}
   m_Layer: 0
   m_Name: Obstaculos
   m_TagString: Untagged
@@ -5356,6 +5945,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &1919185944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919185939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1.0000001}
+  m_Center: {x: 0.00000005960464, y: 0, z: -0.00000008940696}
+--- !u!1 &2017987998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017988003}
+  - component: {fileID: 2017988002}
+  - component: {fileID: 2017988001}
+  - component: {fileID: 2017988000}
+  - component: {fileID: 2017987999}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &2017987999
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017987998}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &2017988000
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017987998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2017988001
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017987998}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2017988002
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017987998}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2017988003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017987998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 14.4, z: -15.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 55
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2021233243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,6 +6085,7 @@ GameObject:
   - component: {fileID: 2021233246}
   - component: {fileID: 2021233245}
   - component: {fileID: 2021233244}
+  - component: {fileID: 2021233249}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -5467,6 +6184,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2021233249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021233243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2047964419
 GameObject:
   m_ObjectHideFlags: 0
@@ -5480,6 +6210,7 @@ GameObject:
   - component: {fileID: 2047964422}
   - component: {fileID: 2047964421}
   - component: {fileID: 2047964420}
+  - component: {fileID: 2047964425}
   m_Layer: 0
   m_Name: Agua
   m_TagString: Untagged
@@ -5578,6 +6309,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2047964425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047964419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2052760182
 GameObject:
   m_ObjectHideFlags: 0
@@ -5591,6 +6335,7 @@ GameObject:
   - component: {fileID: 2052760185}
   - component: {fileID: 2052760184}
   - component: {fileID: 2052760183}
+  - component: {fileID: 2052760188}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -5689,6 +6434,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2052760188
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052760182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2093138978
 GameObject:
   m_ObjectHideFlags: 0
@@ -5702,6 +6460,7 @@ GameObject:
   - component: {fileID: 2093138981}
   - component: {fileID: 2093138980}
   - component: {fileID: 2093138979}
+  - component: {fileID: 2093138984}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -5800,6 +6559,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2093138984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093138978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2107458149
 GameObject:
   m_ObjectHideFlags: 0
@@ -5813,6 +6585,7 @@ GameObject:
   - component: {fileID: 2107458152}
   - component: {fileID: 2107458151}
   - component: {fileID: 2107458150}
+  - component: {fileID: 2107458155}
   m_Layer: 0
   m_Name: Plataforma
   m_TagString: Untagged
@@ -5911,6 +6684,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2107458155
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107458149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1291798804607187996
 PrefabInstance:
   m_ObjectHideFlags: 0
