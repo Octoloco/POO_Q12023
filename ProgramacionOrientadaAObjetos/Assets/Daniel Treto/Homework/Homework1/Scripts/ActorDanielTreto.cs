@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ActorDanielTreto : MonoBehaviour
 {
+
     public int vidas;
     public int items;
     public bool daño;
     public int fuerza;
-    public bool velocidad;
+    public int velocidad;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,4 +26,43 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
+    /*----------------------------------------------------------------------------*/
+    public void Move()
+    {
+        
+    }
+
+    /*----------------------------------------------------------------------------*/
+
+    public void characterGrounded()
+    {
+       
+    }
+
+    /*----------------------------------------------------------------------------*/
+
+    public void hurt()
+    {
+        if (daño == true)
+        {
+            vidas--;
+        }
+    }
+
+    /*----------------------------------------------------------------------------*/
+
+    public void colectCoins()
+    {
+
+    }
+
+    /*----------------------------------------------------------------------------*/
+
+    public void heal()
+    {
+        if (items == 3) { vidas++; }
+    }
 }
+
+
+
