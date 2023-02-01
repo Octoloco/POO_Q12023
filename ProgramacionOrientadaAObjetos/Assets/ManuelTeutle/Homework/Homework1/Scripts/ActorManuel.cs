@@ -36,7 +36,7 @@ public class ActorManuel : MonoBehaviour
 
     }
 
-    public void isInmune()
+    public void IsInmune()
     {
 
     }
