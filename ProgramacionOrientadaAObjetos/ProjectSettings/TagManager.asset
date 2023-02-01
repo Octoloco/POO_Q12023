@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - floor
-  - "OBSTACULODA\xD1O"
-  - 'ENEMIGO '
+<<<<<<< Updated upstream
+=======
+  - obstacle
+>>>>>>> Stashed changes
+  - enemy
   layers:
   - Default
   - TransparentFX
