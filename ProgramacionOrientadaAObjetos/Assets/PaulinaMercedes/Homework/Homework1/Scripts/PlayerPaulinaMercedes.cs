@@ -1,18 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class PlayerPaulinaMercedes : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+//public class PlayerPaulinaMercedes 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+//{
+//    private string mezclarlosingredientes;
+//    private string seguirlospasosdelareceta;
+//    private string lavarlosingredientes;
+//    private string meteralhornolacomida;
+//    private string cocinarenlaestufa;
+
+//    void cocinar()
+//    {
+
+//    }
+//    void mezclarlosingredientes()
+//    {
+
+//    }
+//    void hornearlacomida()
+//    {
+
+//    }
+//    void lavarelingrediente()
+//    {
+
+//    }
+//    void cocinarlapasta()
+//    {
+
+//    }
+
+//}
