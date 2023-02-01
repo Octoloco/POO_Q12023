@@ -10,14 +10,14 @@ public class BalaDanielaChavéz : MonoBehaviour
 
     public float velocidadBala = 1f;
 
-    private float tiempoDisparo = 0.5f;
+    private float tiempo = 0.5f;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (Time.time > tiempoDisparo)
+            if (Time.time > tiempo)
             {
                 GameObject newBullet;
                 newBullet = Instantiate(proyectil, objetovacio.position, objetovacio.rotation);
@@ -25,7 +25,7 @@ public class BalaDanielaChavéz : MonoBehaviour
 
                 newBullet.GetComponent<Rigidbody>().AddForce(objetovacio.forward);
 
-                tiempoDisparo = Time.time + tiempoDisparo;
+                tiempo = Time.time + tiempo;
 
 
                 Destroy(newBullet, 2);
