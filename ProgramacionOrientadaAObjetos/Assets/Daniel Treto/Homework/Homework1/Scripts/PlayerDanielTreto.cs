@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDanielTreto : ActorDanielTreto
+public class PlayerDanielTreto : MonoBehaviour
 {
     private float velocidad;
     private int fuerza;
@@ -13,11 +13,10 @@ public class PlayerDanielTreto : ActorDanielTreto
     // Start is called before the first frame update
     void Start()
     {
+
         velocidad = 1;
         fuerza = 3;
-        punchline = true; 
-
-
+        punchline = true;
 
     }
 
