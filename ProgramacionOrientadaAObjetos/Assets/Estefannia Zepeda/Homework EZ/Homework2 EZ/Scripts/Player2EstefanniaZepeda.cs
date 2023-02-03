@@ -14,6 +14,7 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
     {
         rb = GetComponent<Rigidbody>();
         speed = 8;
+        jump = 5;
         life = 5;
         texto.text = "Vidas:" + life;
 
@@ -23,7 +24,7 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
     void Update()
     {
         
-        if(Input.GetKey(KeyCode.Space))
+        if(Input.GetKey(KeyCode.F))
         {
             transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
         }
@@ -42,16 +43,21 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
+
+        if(Input.GetKey(KeyCode.UpArrow))
+        {
+            rb.AddForce(Vector3.up * jump * Time.deltaTime, ForceMode.Impulse);
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if(collision.gameObject.tag == "enemy")
+        if(other.gameObject.tag == "Enemy")
         {
             life--;
-            texto.text = "Vidas" + life;
+            texto.text = "Vidas:" + life;
 
-            if(life < 0)
+            if(life <= 0)
             {
                 Debug.Log("No quedan vidas. Perdiste :(");
             }
