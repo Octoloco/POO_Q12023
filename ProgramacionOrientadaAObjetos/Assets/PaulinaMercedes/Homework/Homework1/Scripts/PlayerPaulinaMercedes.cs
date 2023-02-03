@@ -1,35 +1,27 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-//public class PlayerPaulinaMercedes 
+public class PlayerPaulinaMercedes
 
-//{
-//    private string mezclarlosingredientes;
-//    private string seguirlospasosdelareceta;
-//    private string lavarlosingredientes;
-//    private string meteralhornolacomida;
-//    private string cocinarenlaestufa;
+{
+    private string mezclarProductos;
+    private string seguirlospasosdelareceta;
+    private string lavarlosingredientes;
+    private string meteralhornolacomida;
+    private string cocinarenlaestufa;
 
-//    void cocinar()
-//    {
+    void Cocinar()
+    {
 
-//    }
-//    void mezclarlosingredientes()
-//    {
+    }
+    void MezclarIngredientes()
+    {
 
-//    }
-//    void hornearlacomida()
-//    {
+    }
+    void Hornear()
+    {
 
-//    }
-//    void lavarelingrediente()
-//    {
+    }
 
-//    }
-//    void cocinarlapasta()
-//    {
-
-//    }
-
-//}
+}

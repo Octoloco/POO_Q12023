@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ActorPaulinaBorja : MonoBehaviour
-{
+{   /*
     public int life;
     public int coins;
     public bool damage;
@@ -51,4 +51,5 @@ public class ActorPaulinaBorja : MonoBehaviour
     {
         if (coins == 5) { life++; }
     }
+    */
 }

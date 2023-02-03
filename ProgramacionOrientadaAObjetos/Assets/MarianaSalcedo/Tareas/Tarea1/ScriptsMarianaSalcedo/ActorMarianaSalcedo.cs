@@ -6,7 +6,7 @@ public class ActorMarianaSalcedo : MonoBehaviour
 {
     // Personaje que puede ser parte del juego.
 
-    [SerializeField] private int vida;
+    [SerializeField] private int fuerza;
     public int daño;
     public int itemsEnVenta;
     public int monedas;
@@ -36,8 +36,6 @@ public class ActorMarianaSalcedo : MonoBehaviour
     {
 
     }
-
-
 
     // Start is called before the first frame update
     void Start()

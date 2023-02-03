@@ -26,9 +26,5 @@ public class ActorPaulinaMercedes : MonoBehaviour
     {
 
     }
-    public void leerlareceta()
-    {
-
-    }
-
+    
 }
