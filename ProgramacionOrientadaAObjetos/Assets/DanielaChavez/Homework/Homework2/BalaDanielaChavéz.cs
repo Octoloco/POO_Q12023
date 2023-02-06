@@ -28,7 +28,7 @@ public class BalaDanielaChavéz : MonoBehaviour
                 tiempo = Time.time + tiempo;
 
 
-                Destroy(newBullet, 2);
+                Destroy(newBullet, 4);
             }
         }
     }
