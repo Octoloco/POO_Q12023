@@ -6,11 +6,27 @@ public class ObjetosConDaños : MonoBehaviour
 {
     public int valorVida = 1;
 
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] private float tiempoYDaño = 1;
+    private float tiempoMasDaño;
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag == "Personaje")
+    //    {
+    //        other.GetComponent<DañosMarianaSalcedo>().QuitarVida(valorVida);
+    //    }
+    //}
+
+    private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Personaje")
+        if (other.CompareTag ("Personaje"))
         {
-            other.GetComponent<DañosMarianaSalcedo>().QuitarVida(valorVida);
+            tiempoMasDaño -= Time.deltaTime;
+            if (tiempoMasDaño <= 0)
+            {
+                other.GetComponent<VidasMarianaSalcedo>().Daño1(valorVida);
+                tiempoMasDaño = tiempoYDaño;
+            }
         }
     }
 

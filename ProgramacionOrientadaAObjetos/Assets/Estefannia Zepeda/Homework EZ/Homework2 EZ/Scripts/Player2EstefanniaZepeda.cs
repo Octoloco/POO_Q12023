@@ -8,6 +8,8 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
     public Rigidbody rb;
     public TextMeshProUGUI texto;
     public GameObject enemigo;
+    public GameObject bala;
+    public Transform balapoint;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +25,10 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
     // Update is called once per frame
     void Update()
     {
-        
-        if(Input.GetKey(KeyCode.F))
+
+        if (Input.GetKey(KeyCode.F))
         {
-            transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
 
         if (Input.GetKey(KeyCode.B))
@@ -44,12 +46,22 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
 
-        if(Input.GetKey(KeyCode.UpArrow))
+        Dispararbala();
+        /*if(Input.GetKey(KeyCode.UpArrow))
         {
             rb.AddForce(Vector3.up * jump * Time.deltaTime, ForceMode.Impulse);
-        }
+        }*/
+
     }
 
+    private void Dispararbala()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(bala, balapoint.position, Quaternion.identity);
+        }
+        
+    }
     private void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.tag == "Enemy")
@@ -63,4 +75,6 @@ public class Player2EstefanniaZepeda : ActorEstefanniaZepeda
             }
         }
     }
+
+    
 }
