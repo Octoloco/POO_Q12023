@@ -4875,6 +4875,7 @@ GameObject:
   - component: {fileID: 2127838683}
   - component: {fileID: 2127838682}
   - component: {fileID: 2127838681}
+  - component: {fileID: 2127838686}
   m_Layer: 0
   m_Name: JUGADOR
   m_TagString: Untagged
@@ -4977,6 +4978,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2127838686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127838680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ec9e5ab78521840b556bfd1cff6a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &275261555103250830
 PrefabInstance:
   m_ObjectHideFlags: 0
