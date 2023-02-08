@@ -17,15 +17,12 @@ public class Player1SergioAboites : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.CompareTag("Enemy"))
+        /*if (col.CompareTag("Enemy"))
         {
-            health = health--;
-        }
+            
+        }*/
     }
-    void OncollisionEnter(Collider col)
-    {
 
-    }
 
             // Update is called once per frame
             void Update()
