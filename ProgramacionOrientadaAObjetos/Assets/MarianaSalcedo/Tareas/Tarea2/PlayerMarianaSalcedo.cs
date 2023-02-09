@@ -4,22 +4,20 @@ using UnityEngine;
 
 public class PlayerMarianaSalcedo : ActorMarianaSalcedo
 {
-    //Exclusivo de 1 jugador.
-    private int distanciaSalto;
+    // Tarea 1
+    // Características exclusivas de 1 jugador.
     private int inventario;
-    public float coleccionables;
+    private float coleccionables;
     protected int energía;
     [SerializeField] private int poder;
-
     [SerializeField] private int speed = 5;
-    [SerializeField] private GameObject prueba1;
 
-    //Tarea2
-    public int vida = 10;
-    public int velocidadDeMovimiento;
-    public int fuerzaDeBrinco;
+    // Tarea2
+    public int vida = 100;
+    // public int velocidadDeMovimiento;
+    // public int fuerzaDeBrinco = 10;
 
-    void Inventario()
+    void AccesarAInventario()
     {
 
     }
@@ -53,6 +51,7 @@ public class PlayerMarianaSalcedo : ActorMarianaSalcedo
     // Update is called once per frame
     void Update()
     {
+        // Movimientos de mi personaje:
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);

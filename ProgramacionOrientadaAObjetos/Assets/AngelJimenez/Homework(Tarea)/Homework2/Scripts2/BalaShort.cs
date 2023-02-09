@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class BalaShort : MonoBehaviour
 {
-    private int velocidadBale = 10;
     void Update()
     {
-        transform.Translate(Vector3.left * velocidadBale * Time.deltaTime);
-
+        //transform.Translate(Vector3.left * velocidadBala * Time.deltaTime);
     }
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemigo"))
         {
             Destroy(collision.gameObject);
+         
         }
-        
+    }*/
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
 
+            Destroy(collision.gameObject);
+            Debug.Log("Destruido el enemigo");
+        }
     }
+
+       
+    
 }
