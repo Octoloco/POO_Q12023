@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActorPaulinaBorja : MonoBehaviour
-{
+{   /*
     public int life;
     public int coins;
     public bool damage;
@@ -15,12 +16,12 @@ public class ActorPaulinaBorja : MonoBehaviour
     {
         life = 3;
         coins = 0;
-}
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Move()
@@ -50,4 +51,5 @@ public class ActorPaulinaBorja : MonoBehaviour
     {
         if (coins == 5) { life++; }
     }
+    */
 }
