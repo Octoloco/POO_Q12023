@@ -4,27 +4,32 @@ using UnityEngine;
 
 public class ActorPaulinaMercedes : MonoBehaviour
 {
-    public string nombre;
-    public string sexo;
-    public string edad;
-    public string rangodecocina;
-    public string raza;
+   
+    public int fuerza = 100;
+    public string defensa = "Curación";
+    public int correr = 100;
+    public int inventario = 200;
+    public string mascotas = "criatura";
 
-    public void mezclarlosingredientes()
+    //Metodos de Actor
+    void recuperarse()
     {
 
     }
-    public void cocinar()
+    void Items()
     {
 
     }
-    public void hornearlacomida()
+    void Aparicion()
     {
 
     }
-    public void cocinarenelsarten()
+    void Cargas()
     {
 
     }
-    
+    void historiales()
+    {
+
+    }
 }
