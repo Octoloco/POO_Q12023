@@ -8,10 +8,10 @@ public class Shot : MonoBehaviour
     public GameObject bala;
     public Transform spawnPoint;
 
-    public int fuerzaBala = 100;
-    public int     velocidadBala = 10;
+    public float fuerzaBala = 2500f;
+    public float velocidadBala = 0.5f;
 
-    private float tiempoDisparo = 1;
+    private float tiempoDisparo = 0;
 
     // Update is called once per frame
     void Update()
@@ -24,13 +24,14 @@ public class Shot : MonoBehaviour
                 newBullet = Instantiate(bala,spawnPoint.position,spawnPoint.rotation);
 
                 
-                newBullet.GetComponent<Rigidbody>().AddForce(spawnPoint.forward * velocidadBala);
+                newBullet.GetComponent<Rigidbody>().AddForce(spawnPoint.forward * fuerzaBala);
 
-                tiempoDisparo = Time.time + tiempoDisparo;
-                
+                tiempoDisparo = Time.time + velocidadBala;
+               
                
                 Destroy(newBullet, 1);
                 Debug.Log("Disparo de bala");
+               
             }
         }
     }

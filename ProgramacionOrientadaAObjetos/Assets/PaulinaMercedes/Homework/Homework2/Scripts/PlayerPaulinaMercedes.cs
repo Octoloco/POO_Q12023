@@ -2,56 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPaulinaMercedes
-
+public class PlayerPaulinaMercedes : MonoBehaviour
 {
-    //movimientos del jugador.
-    public float movimiento = 12f;
-    public float vida = 10;
-    public float fuerzaDeBrinco = 7;
-
-    //cosas que puede hacer el jugador.
+    public CharacterController characterController;
+    public float speed = 12f;
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
-            transform.Translate(Vector3.forward * movimiento * Time.deltaTime);
-        if (Input.GetKey(KeyCode.A))
-            transform.Translate(-Vector3.forward * movimiento * Time.deltaTime);
-        if (Input.GetKey(KeyCode.W))
-            transform.Translate(-Vector3.right * movimiento * Time.deltaTime);
-        if (Input.GetKey(KeyCode.S))
-            transform.Translate(Vector3.right * movimiento * Time.deltaTime);
+        float x = Input.GetAxis("Horizontal");
+
+        float z = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * x + transform.forward * z;
+
+        characterController.Move(move * speed * Time.deltaTime);
 
 
     }
-
-
-    private string mezclarlosingredientes;
-    private string seguirlospasosdelareceta;
-    private string lavarlosingredientes;
-    private string meteralhornolacomida;
-    private string cocinarenlaestufa;
-
-    void cocinar()
-    {
-
-    }
-    void mezclaringredientes()
-    {
-
-    }
-    void hornearlacomida()
-    {
-
-    }
-    void lavarelingrediente()
-    {
-
-    }
-    void cocinarlapasta()
-    {
-
-    }
-
 }

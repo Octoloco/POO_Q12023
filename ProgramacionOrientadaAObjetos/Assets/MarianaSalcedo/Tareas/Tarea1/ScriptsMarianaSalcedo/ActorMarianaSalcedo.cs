@@ -4,35 +4,35 @@ using UnityEngine;
 
 public class ActorMarianaSalcedo : MonoBehaviour
 {
+    // Tarea 1
     // Personaje que puede ser parte del juego.
-
-    [SerializeField] private int fuerza;
+    [SerializeField] private int resistencia;
     public int daño;
-    public int itemsEnVenta;
-    public int monedas;
-    [SerializeField] private int velocidad;
+    private int itemsEnVenta;
+    private int monedas;
+    private int velocidadEnemigo;
 
     void BajarVida()
     {
 
     }
 
-    void Instrucciones()
+    void DecirInformaciónDelNivel()
     {
 
     }
 
-    void Almacén()
+    void Buscar()
     {
 
     }
 
-    void Habilidad()
+    void OtorgarHabilidad()
     {
 
     }
 
-    void Tip()
+    void DarTip()
     {
 
     }
