@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 19
+=======
+  controlID: 22
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,9 +152,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1536
     height: 772.8
   m_MinSize: {x: 875, y: 300}
+=======
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 371}
+>>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -223,7 +233,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 99
+=======
+  controlID: 23
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +262,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 100
+=======
+  controlID: 24
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,12 +335,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Classes
+=======
+    - Assets/AngelJimenez/Homework(Tarea)/Homework1/Esenas
+>>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/Classes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Diego\Desktop\Unitec\POO_Q12023\ProgramacionOrientadaAObjetos
@@ -333,6 +356,18 @@ MonoBehaviour:
     m_SelectedIDs: ee5e0000
     m_LastClickedID: 24302
     m_ExpandedIDs: 00000000da5e000000ca9a3bffffff7f
+=======
+  - Assets/AngelJimenez/Homework(Tarea)/Homework1/Esenas
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Angel Lalo\Documents\POO_Q12023\ProgramacionOrientadaAObjetos
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 5c5d0000
+    m_LastClickedID: 23900
+    m_ExpandedIDs: 000000002c5d00002e5d0000305d0000325d0000345d0000365d0000385d00003a5d00003c5d00003e5d0000405d0000425d0000445d0000465d0000485d00004a5d00004c5d00006e5d0000725d0000e25d0000e45d0000e65d0000225e000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +395,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000da5e0000
+=======
+    m_ExpandedIDs: 000000002c5d00002e5d0000305d0000325d0000345d0000365d0000385d00003a5d00003c5d00003e5d0000405d0000425d0000445d0000465d0000485d00004a5d00004c5d0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +527,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 02f8ffff
+=======
+      m_SelectedIDs: 145f0000
+      m_LastClickedID: 24340
+      m_ExpandedIDs: f6f7ffffb2faffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -772,9 +817,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 1, z: 90}
     speed: 2
     m_Value: {x: 15.040994, y: 9.88029, z: 4.1663976}
+=======
+    m_Target: {x: 25.18, y: 1.96, z: -1.9700003}
+    speed: 2
+    m_Value: {x: 25.17984, y: 1.9599875, z: -1.9699878}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -823,11 +874,19 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
+<<<<<<< Updated upstream
     m_Value: {x: -0.11772675, y: 0.614776, z: -0.093479395, w: -0.774244}
   m_Size:
     m_Target: 143.89395
     speed: 2
     m_Value: 21.92748
+=======
+    m_Value: {x: 0.39968792, y: -0.02257181, z: 0.009865077, w: 0.9163202}
+  m_Size:
+    m_Target: 0.8660254
+    speed: 2
+    m_Value: 0.8666637
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
