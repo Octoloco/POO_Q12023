@@ -8,48 +8,44 @@ public class Player1SergioAboites : MonoBehaviour
     public int health = 100;
     public int jumpForce = 100;
 
+    private Rigidbody rb;
 
 
-    // Start is called before the first frame update
-    void Start()
+
+
+    private void Awake()
     {
-
-    }
-    void OnCollisionEnter(Collision col)
-    {
-        if (col.CompareTag("Enemy"))
-        {
-            health = health--;
-        }
-    }
-    void OncollisionEnter(Collider col)
-    {
-
+        rb = GetComponent<Rigidbody>();
     }
 
-            // Update is called once per frame
-            void Update()
+
+    // Update is called once per frame
+    void Update()
     {
         {
             if (Input.GetKey(KeyCode.W))
             {
-                transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+                rb.AddForce(Vector3.forward * speed, ForceMode.Force);
+
             }
 
             if (Input.GetKey(KeyCode.A))
             {
-                transform.Translate(Vector3.left * speed * Time.deltaTime);
+                rb.AddForce(Vector3.left * speed, ForceMode.Force);
             }
 
             if (Input.GetKey(KeyCode.D))
             {
-                transform.Translate(Vector3.right * speed * Time.deltaTime);
+                rb.AddForce(Vector3.right * speed, ForceMode.Force);
             }
 
             if (Input.GetKey(KeyCode.S))
             {
-                transform.Translate(Vector3.back * speed * Time.deltaTime);
+                rb.AddForce(Vector3.back * speed, ForceMode.Force);
             }
+
+
         }
     }
 }
