@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player_Paulina_Borja : ActorPaulinaBorja
+public class PlayerPaulinaBorja : ActorPaulinaBorja
 {
     public int food;
     public int bombs;
@@ -71,6 +71,7 @@ public class Player_Paulina_Borja : ActorPaulinaBorja
         }
     }
 
+    /*
     public void feed()
     {
 
@@ -102,4 +103,5 @@ public class Player_Paulina_Borja : ActorPaulinaBorja
     {
 
     }
+    */
 }
