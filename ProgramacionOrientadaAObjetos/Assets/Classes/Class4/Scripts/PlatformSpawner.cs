@@ -20,7 +20,7 @@ public class PlatformSpawner : MonoBehaviour
 
     void Update()
     {
-        timer -= Time.deltaTime;
+        timer += Time.deltaTime;
 
         if (timer <= 0)
         {
@@ -29,5 +29,6 @@ public class PlatformSpawner : MonoBehaviour
             GameObject objeto = Instantiate(plataforma, new Vector3(15, distRandom, 0), Quaternion.identity);
             objeto.GetComponent<MovPlat>().vel = speed;
         }
+        Debug.Log(timer);
     }
 }
