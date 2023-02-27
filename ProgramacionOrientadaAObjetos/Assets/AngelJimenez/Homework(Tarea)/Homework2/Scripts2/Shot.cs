@@ -8,7 +8,7 @@ public class Shot : MonoBehaviour
     public GameObject bala;
     public Transform spawnPoint;
 
-    public float fuerzaBala = 2500f;
+    public float fuerzaBala = 1500f;
     public float velocidadBala = 0.5f;
 
     private float tiempoDisparo = 0;
@@ -16,7 +16,7 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+       if (Input.GetMouseButton(0))
         {
             if (Time.time > tiempoDisparo)
             {
