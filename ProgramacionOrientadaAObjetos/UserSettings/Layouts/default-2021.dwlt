@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 77
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 78
+  controlID: 113
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 114
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MarianaSalcedo/Tareas/Tarea1/EscenasMarianaSalcedo
+    - Assets/MarianaSalcedo/Clases
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MarianaSalcedo/Tareas/Tarea1/EscenasMarianaSalcedo
+  - Assets/MarianaSalcedo/Clases
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\maria\OneDrive\Escritorio\POO_Q12023\ProgramacionOrientadaAObjetos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 229.2515}
-    m_SelectedIDs: 947d0000
-    m_LastClickedID: 32148
-    m_ExpandedIDs: 00000000aa790000ac790000ae790000b0790000b2790000b4790000b6790000b8790000e4790000187a00001a7a00001c7a0000227a0000
+    scrollPos: {x: 0, y: 418}
+    m_SelectedIDs: 12640000
+    m_LastClickedID: 25618
+    m_ExpandedIDs: 0000000096630000986300009a6300009c6300009e630000a0630000a2630000a4630000ac630000da630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa790000ac790000ae790000b0790000b2790000b4790000b6790000b8790000
+    m_ExpandedIDs: 0000000096630000986300009a6300009c6300009e630000a0630000a2630000a4630000a6630000a8630000aa630000ac630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a07d0000
+      m_SelectedIDs: 12640000
       m_LastClickedID: 0
-      m_ExpandedIDs: 02d6ffffdcd6ffff5ad7ffffded8ffffaadfffff54e0ffffbae0ffff4ce1ffff00e3ffff787b0000b67b0000
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 6.6842446, y: -0.76502705, z: -4.4513516}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 6.6842446, y: -0.76502705, z: -4.4513516}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -845,11 +845,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.16405459, y: -0.53366995, z: 0.10640886, w: -0.82278}
     speed: 2
-    m_Value: {x: -0.119113654, y: 0.8031542, z: -0.17144613, w: -0.5579978}
+    m_Value: {x: 0.16405459, y: 0.53366995, z: -0.10640886, w: 0.82278}
   m_Size:
     m_Target: 7.3645144
     speed: 2
-    m_Value: 12.236534
+    m_Value: 7.3645144
   m_Ortho:
     m_Target: 0
     speed: 2
