@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class VidaDelJugador : MonoBehaviour
 {
+    public TMP_Text vidaTexto;
     [SerializeField] private int vidaJugador;
     [SerializeField] private int maximoVida;
 
@@ -11,13 +13,10 @@ public class VidaDelJugador : MonoBehaviour
     {
         vidaJugador = maximoVida; 
     }
-
-   
-    void Update()
+    private void LateUpdate()
     {
-        
+        vidaTexto.text = "Vida: "+vidaJugador+"%";
     }
-
     public void TomarDaño(int daño)
     {
         vidaJugador -= daño;
