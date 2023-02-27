@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14493537, g: 0.16073538, b: 0.16144787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1449357, g: 0.16073556, b: 0.1614479, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -341,7 +341,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &48783788
 BoxCollider:
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 156424912}
   - component: {fileID: 156424911}
   - component: {fileID: 156424910}
-  - component: {fileID: 156424909}
+  - component: {fileID: 156424914}
   m_Layer: 0
   m_Name: "Da\xF1o2 (1)"
   m_TagString: ENEMIGO
@@ -697,20 +697,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &156424909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156424908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &156424910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -789,6 +775,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &156424914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156424908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &165262285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 796514051}
   - component: {fileID: 796514050}
   - component: {fileID: 796514049}
-  - component: {fileID: 796514048}
+  - component: {fileID: 796514053}
   m_Layer: 0
   m_Name: "BarraDa\xF1oLados"
   m_TagString: ENEMIGO
@@ -2330,20 +2330,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &796514048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796514047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &796514049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2422,6 +2408,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!114 &796514053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796514047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &818629607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,7 +2434,7 @@ GameObject:
   - component: {fileID: 818629611}
   - component: {fileID: 818629610}
   - component: {fileID: 818629609}
-  - component: {fileID: 818629608}
+  - component: {fileID: 818629613}
   m_Layer: 0
   m_Name: "Da\xF1o2 (3)"
   m_TagString: ENEMIGO
@@ -2442,20 +2442,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &818629608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818629607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &818629609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2534,6 +2520,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &818629613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818629607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &839760372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,7 +2841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valorVida: 1
-  "tiempoYDa\xF1o": 0
+  "tiempoYDa\xF1o": 1
 --- !u!1 &939362319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,7 +3623,7 @@ GameObject:
   - component: {fileID: 1451348684}
   - component: {fileID: 1451348683}
   - component: {fileID: 1451348682}
-  - component: {fileID: 1451348681}
+  - component: {fileID: 1451348686}
   m_Layer: 0
   m_Name: "Da\xF1o2 (2)"
   m_TagString: ENEMIGO
@@ -3631,20 +3631,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1451348681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451348680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &1451348682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3723,6 +3709,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1451348686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451348680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &1569187347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,7 +3832,7 @@ GameObject:
   - component: {fileID: 1581751534}
   - component: {fileID: 1581751533}
   - component: {fileID: 1581751532}
-  - component: {fileID: 1581751531}
+  - component: {fileID: 1581751536}
   m_Layer: 0
   m_Name: "BarraDa\xF1oLados2"
   m_TagString: ENEMIGO
@@ -3840,20 +3840,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1581751531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581751530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &1581751532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3932,6 +3918,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!114 &1581751536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581751530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &1591526248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,7 +4365,7 @@ GameObject:
   - component: {fileID: 1891859043}
   - component: {fileID: 1891859042}
   - component: {fileID: 1891859041}
-  - component: {fileID: 1891859040}
+  - component: {fileID: 1891859045}
   m_Layer: 0
   m_Name: "Da\xF1o2"
   m_TagString: ENEMIGO
@@ -4373,20 +4373,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1891859040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891859039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valorVida: 1
-  "tiempoYDa\xF1o": 0
 --- !u!65 &1891859041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4465,6 +4451,20 @@ Transform:
   m_Father: {fileID: 1066984881}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1891859045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891859039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970ca2ead53a8b847a3a725c5864e4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 1
+  "tiempoYDa\xF1o": 1
 --- !u!1 &1899299652
 GameObject:
   m_ObjectHideFlags: 0
