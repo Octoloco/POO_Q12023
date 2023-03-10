@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Bala : MonoBehaviour
+public class Balaclase2 : MonoBehaviour
 {
     public float speed;
     private Rigidbody rb;
