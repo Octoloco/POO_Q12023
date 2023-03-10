@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerRepaso : MonoBehaviour //esta es la clase, si no se le pone "public" automáticamente la clase se vuelve privada
+public class PlayerRepasofatimaGonzales : MonoBehaviour //esta es la clase, si no se le pone "public" automáticamente la clase se vuelve privada
 {
     //private PlayerRepaso player; 
 
